@@ -62,12 +62,10 @@ sudo npm install -g json-server # 用來模擬後端 API
 3. 撰寫程式碼
 
 ```
-	元件關係如下
-	   Home
-	 /      \
-Edit        List
-	           \ 
-	           Item
+元件關係如下 (線條代表狀態有共享關係)
+Home 一 List 一 Item
+ |
+Edit      
 ```
 
 
