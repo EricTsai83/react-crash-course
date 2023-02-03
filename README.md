@@ -11,6 +11,7 @@ Create React App 是一個適合學習 React 的環境，而且也是使用 Reac
 ```bash
 npx create-react-app my-app  # create a project
 cd my-app  # change directory
+npm run server  # run DB server by using json-server
 npm start # launch react 的 app
 npm install uuid # 幫助快速產生 unique id
 sudo npm install -g json-server # 用來模擬後端 API
